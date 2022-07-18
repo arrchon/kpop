@@ -405,3 +405,43 @@ section {
   font-size: 26px;
   font-weight: 700;
 }
+
+/* work experience */
+#work > .company-title {
+  display: inline-block;
+  width: 531px;
+}
+
+#work > .company-title p {
+  text-align: right;
+}
+
+#work > .ceo-profile {
+  float: right;
+  margin: 75px 400px 0 0;
+  padding: 5px 15px 12px; 
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 28px;
+  background: #161616;
+  color: #fff;
+}
+
+.work-imgbox {
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.work-imgbox .one {
+  margin-right: 20px;
+}
+.work-imgbox .one img {
+  height: 215px;
+}
+.work-imgbox .two {
+  margin-left: 20px;
+}
+.work-imgbox .two img {
+  height: 430px;
+}
