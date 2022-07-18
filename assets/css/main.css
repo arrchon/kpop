@@ -361,3 +361,47 @@ section {
   font-family: 'Raleway', sans-serif;
   font-size: 48px;
 }
+
+/** 컨텐츠 소개 */
+#contents > .company-title {
+  display: inline-block;
+  width: 531px;
+}
+
+#contents > .company-title p {
+  text-align: right;
+}
+
+#contents > .ceo-profile {
+  float: right;
+  margin: 75px 500px 0 0;
+  padding: 5px 15px 12px; 
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 28px;
+  background: #161616;
+  color: #fff;
+}
+
+.contents-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 50px;
+  line-height: 1.5;
+}
+
+.contents-container h3 {
+  font-size: 32px;
+  font-weight: 300;
+}
+.contents-container p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.contents-container p strong {
+  font-size: 26px;
+  font-weight: 700;
+}
