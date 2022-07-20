@@ -456,6 +456,10 @@ section {
     box-sizing: border-box;
     overflow-x: hidden;
   }
+
+  #wrap {
+    max-width: 480px;
+  }
   /* 인트로 */
   #intro {
     width: 100%;
