@@ -456,10 +456,6 @@ section {
     overflow-x: hidden;
   }
 
-  #wrap {
-    max-width: 480px;
-    width: 100%;
-  }
   /* 인트로 */
   #intro {
     width: 100%;
