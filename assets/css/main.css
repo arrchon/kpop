@@ -674,14 +674,15 @@ section {
   }
 
   .instructor-desc {
-    width: 90%;
+    width: 95%;
     font-size: 30px;
     margin: 15px 10px 0;
     line-height: 1.2;
+    word-break: keep-all;
   }
 
   .instructor-image {
-    margin: 15px 28px auto;
+    margin: 30px 28px auto;
     width: 340px;
     height: auto;
   }
