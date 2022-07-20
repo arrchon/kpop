@@ -450,7 +450,6 @@ section {
 /********* 반응형 ***********/
 @media only screen and (max-width:480px) {
   html {
-    max-width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -459,6 +458,7 @@ section {
 
   #wrap {
     max-width: 480px;
+    width: 100%;
   }
   /* 인트로 */
   #intro {
