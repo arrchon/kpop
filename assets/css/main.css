@@ -5,6 +5,7 @@
 /* 공통, 리셋은 cdn으로 적용 */
 html {
   font-size: 16px;
+  overflow-x : hidden;
 }
 
 #wrap {
