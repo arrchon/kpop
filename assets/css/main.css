@@ -75,7 +75,7 @@ section {
 .company-title p {
   color: #7f7f7f; 
   font-size: 24px;
-  text-align: center;
+  text-align: left;
 }
 
 .company-desc {
@@ -117,7 +117,7 @@ section {
 }
 
 #ceo > .company-title p {
-  text-align: right;
+  text-align: left;
 }
 
 
@@ -448,6 +448,7 @@ section {
 }
 
 /********* 반응형 ***********/
+/********************** ~480 모바일 *****************************/
 @media only screen and (max-width:480px) {
   html {
     -webkit-box-sizing: border-box;
@@ -563,9 +564,6 @@ section {
     font-size: 20px;
     margin-top: 10px;
   }
-  .ceo-career:nth-child(3){
-    margin-top: 0;
-  }
   .ceo-career p {
     font-size: 14px;
   }
@@ -676,20 +674,20 @@ section {
   .instructor-desc {
     width: 95%;
     font-size: 30px;
-    margin: 15px 10px 0;
+    margin: 15px 10px auto;
     line-height: 1.2;
     word-break: keep-all;
   }
 
   .instructor-image {
-    margin: 30px 28px auto;
+    margin: 30px auto;
     width: 340px;
     height: auto;
   }
 
   .instructor-image img {
     width: 100%;
-    height: 300px;
+    height: 360px;
   }
 
   /* 영문 소개 */
@@ -798,4 +796,327 @@ section {
     width: 100%;
     height: 100%;
   }
+  /************ //480 ******************/
+}
+
+/**************** 768 태블릿 *******************/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  /**** 인트로 ****/
+  .intro-title-text {
+    margin: 80px 15px 0 0;
+  }
+  
+  .intro-title-text h2 {
+    font-size: 60px;
+  }
+  
+  .intro-title-text p {
+    font-size: 64px;
+    letter-spacing: -1px;
+  }
+  
+  .intro-title-text p .small {
+    font-size: 36px;
+  }
+
+  /**** 회사소개 ****/
+  .company-title {
+    padding: 30px 0 0 15px;
+  }
+
+  .company-title p {
+    font-size: 32px;
+  }
+  
+  .company-desc {
+    flex-direction: row;
+  }
+  
+  .company-desc-text {
+    width: 49%; text-align: center;
+    margin-left: 15px;
+  }
+
+  .company-desc-text h3 {
+    font-size: 30px;
+  }
+
+  .company-desc-text p {
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+  }
+  .company-desc-image {
+    box-sizing: border-box;
+    width: 49%; 
+    text-align: right;
+    margin: 0 15px;
+  }
+
+  .company-desc-image a img {
+    width: 100%;
+  }
+
+  /**** ceo소개 ****/
+  
+  .ceo-profile {
+    margin: 15px 330px 0 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .ceo-name {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .ceo-name strong {
+    font-size: 42px;
+  }
+
+  .ceo-career {
+    margin-left: 15px;
+  }
+  
+  .ceo-career h3 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  .ceo-career p {
+    font-size: 16px;
+  }
+  
+  .ceo-interview {
+    width: 50%;
+    margin: 20px 0 0 20px;
+  }
+
+  .ceo-interview img {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .ceo-interview ul a {
+    font-size: 18px;
+  }
+
+  /**** 아티스트 소개 ****/
+  #artist .artist-profile {
+    margin: 15px 260px 0 0;
+    padding: 12px 20px 6px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  #artist .artist-profile strong {
+    font-size: 36px;
+  }
+
+  .artist-intro {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .artist-intro-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .artist-intro-img img{
+    width: 100%;
+  }
+
+  .artist-intro-desc {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  
+  .artist-intro-desc h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .artist-intro-desc p {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  /* 회사 업무 */
+  #business > .company-title {
+    width: 531px;
+  }
+
+  #business > .company-title p {
+    text-align: left;
+  }
+
+  #business > .ceo-profile {
+    margin: 20px 310px 0 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .business-image {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: 0 0 0 2%;
+  }
+  .business-image li {
+    width: 50%;
+    height: 360px;
+    margin-top: 20px;
+  }
+  .business-image li img {
+    width: 90%;
+    height: 100%;
+  }
+
+  /**** 강사 소개 ****/
+  #instructor > .company-title {
+    width: 531px;
+  }
+
+  #instructor > .company-title p {
+    text-align: left;
+  }
+
+  #instructor > .ceo-profile {
+    margin: 15px 300px 0 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .instructor-desc {
+    width: 95%;
+    font-size: 34px;
+    margin: 15px 20px auto;
+    line-height: 1.2;
+    word-break: keep-all;
+  }
+
+  .instructor-image {
+    margin: 30px auto;
+    width: 640px;
+    height: auto;
+  }
+
+  .instructor-image img {
+    width: 100%;
+    height: 500px;
+  }
+
+  /**** 영문 소개 ****/
+  #synergy > .company-title {
+    width: 531px;
+  }
+
+  #synergy > .company-title p {
+    text-align: left;
+  }
+
+  #synergy > .ceo-profile {
+    margin: 15px 320px 0 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .synergy-text {
+    margin-top: 15px;
+    flex-wrap: wrap;
+  }
+
+  .synergy-text h3 {
+    font-size: 54px;
+  }
+  .synergy-text p {
+    transform: translateY(70px);
+    font-size: 34px;
+  }
+
+  /**** 컨텐츠 소개 ****/
+  #contents > .company-title {
+    width: 531px;
+  }
+
+  #contents > .company-title p {
+    text-align: left;
+  }
+
+  #contents > .ceo-profile {
+    margin: 15px 325px 0 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .contents-container {
+    margin: 15px auto;
+    width: 90%;
+  }
+
+  .contents-container h3 {
+    font-size: 30px;
+  }
+  .contents-container p {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .contents-container p strong {
+    font-size: 22px;
+  }
+
+  
+  /* 마지막 챕터 */
+  #work > .company-title {
+    width: 531px;
+  }
+
+  #work > .company-title p {
+    text-align: left;
+  }
+
+  #work > .ceo-profile {
+    margin: 15px 285px 0 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .work-imgbox {
+    flex-wrap: wrap;
+    width: 90%;
+    height: 80%;
+    margin: 20px auto;
+    align-items: flex-start;
+  }
+
+  .work-imgbox .one {
+    width: 100%;
+    height: 24%;
+    margin: 0;
+  }
+
+  .work-imgbox .one img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .work-imgbox .two {
+    width: 100%;
+    height: 28%;
+    margin: 20px 0 0;
+  }
+  .work-imgbox .two img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  
 }
